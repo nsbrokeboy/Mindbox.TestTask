@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2A8BFD7D-D721-4265-9AE9-ED8DF32C14C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindbox.AreaCalculator", "src\Mindbox.AreaCalculator\Mindbox.AreaCalculator.csproj", "{583F22CD-AE0F-4059-A792-AA498FC4389A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{99002AB2-B589-4EE6-96DC-8373E259EDCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindbox.AreaCalculator.Test", "test\Mindbox.AreaCalculator.Test\Mindbox.AreaCalculator.Test.csproj", "{9E4BFD85-E9ED-4FED-94D0-12B5DD8FD658}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{583F22CD-AE0F-4059-A792-AA498FC4389A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{583F22CD-AE0F-4059-A792-AA498FC4389A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{583F22CD-AE0F-4059-A792-AA498FC4389A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{583F22CD-AE0F-4059-A792-AA498FC4389A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E4BFD85-E9ED-4FED-94D0-12B5DD8FD658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4BFD85-E9ED-4FED-94D0-12B5DD8FD658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4BFD85-E9ED-4FED-94D0-12B5DD8FD658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4BFD85-E9ED-4FED-94D0-12B5DD8FD658}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{583F22CD-AE0F-4059-A792-AA498FC4389A} = {2A8BFD7D-D721-4265-9AE9-ED8DF32C14C6}
+		{9E4BFD85-E9ED-4FED-94D0-12B5DD8FD658} = {99002AB2-B589-4EE6-96DC-8373E259EDCF}
+	EndGlobalSection
+EndGlobal
